@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Website website = new Website();
+            var w = website.Websites;
         }
+
     }
 }
